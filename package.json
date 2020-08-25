@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "test": "lerna run test",
-    "pub": "lerna publish -y"
+    "pub": "lerna publish patch -y"
   },
   "devDependencies": {
     "jest": "^26.4.2",
