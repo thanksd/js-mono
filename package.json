@@ -1,6 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "test": "lerna run test",
+    "pub": "lerna publish patch -y"
+  },
   "devDependencies": {
     "jest": "^26.4.2",
     "lerna": "^3.22.1"
